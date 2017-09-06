@@ -1,7 +1,6 @@
 {
-  "name": "rss",
+  "name": "@blank-string/rss",
   "version": "0.0.1",
-  "private": true,
   "main": "index.js",
   "bin": {
     "rss": "rss"
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/blank-string/rss#readme",
   "dependencies": {
+    "@blank-string/data": "^0.6.2",
     "chalk": "^2.1.0",
     "data": "git+ssh://git@github.com/blank-string/data.git",
     "fs-extra": "^4.0.1",
