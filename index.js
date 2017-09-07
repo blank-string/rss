@@ -3,7 +3,7 @@ const fs = require('fs-extra')
 const mustache = require('mustache')
 const chalk = require('chalk')
 const moment = require('moment')
-const data = require('data')
+const data = require('@blank-string/data')
 
 module.exports = directory => {
   if (typeof directory === 'undefined') {

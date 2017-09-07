@@ -22,7 +22,6 @@
   "dependencies": {
     "@blank-string/data": "^0.6.2",
     "chalk": "^2.1.0",
-    "data": "git+ssh://git@github.com/blank-string/data.git",
     "fs-extra": "^4.0.1",
     "md5": "^2.2.1",
     "moment": "^2.18.1",
