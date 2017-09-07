@@ -6,7 +6,8 @@
     "rss": "rss"
   },
   "scripts": {
-    "build": "node index.js"
+    "build": "node index.js",
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,13 @@
     "md5": "^2.2.1",
     "moment": "^2.18.1",
     "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
