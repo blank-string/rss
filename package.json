@@ -2,6 +2,9 @@
   "name": "@blank-string/rss",
   "version": "0.0.2",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "rss": "rss"
   },
@@ -14,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/blank-string/rss.git"
   },
-  "author": "",
+  "author": "Blank String <blankstringpodcast@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/blank-string/rss/issues"
