@@ -9,7 +9,7 @@
     "rss": "rss"
   },
   "scripts": {
-    "build": "node index.js",
+    "build": "./rss .",
     "lint": "eslint .",
     "test": "npm run lint && ./rss ."
   },
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/blank-string/rss#readme",
   "dependencies": {
-    "@blank-string/data": "^0.6.2",
+    "@blank-string/data": "^0.8.1",
     "chalk": "^2.1.0",
     "fs-extra": "^4.0.1",
     "md5": "^2.2.1",
