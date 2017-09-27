@@ -29,7 +29,7 @@ module.exports = directory => {
       link: `http://blankstring.com/${d.name}`,
       description: d.description,
       mp3Length: d.mp3Length,
-      mp3: `http://blankstring.com/static/media/${d.name}.mp3`,
+      mp3: `http://blankstring.com/media/${d.name}.mp3`,
       duration: d.duration,
       subtitle: d.subtitle
     })
