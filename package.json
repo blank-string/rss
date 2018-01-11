@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/blank-string/rss#readme",
   "dependencies": {
-    "@blank-string/data": "^18.0.0",
+    "@blank-string/data": "^19.0.1",
     "chalk": "^2.1.0",
     "fs-extra": "^4.0.1",
     "md5": "^2.2.1",
